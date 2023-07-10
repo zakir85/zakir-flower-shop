@@ -9,3 +9,45 @@ body{
 }
 
 /* header section's style */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+   
+    
+}
+
+.banner-section{
+    display: flex;
+    padding: 0 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.banner-content-right{
+    width: 50%;
+    margin-bottom: -48px;
+}
+.banner-content-right img{
+    width: 635px;
+}
+
+
+.banner-title{
+    color: #272727;
+    width: 500px;
+    margin-top: 150px;
+    font-weight: bold;
+    
+}
+
+.banner-button{
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border: none;    
+
+}
