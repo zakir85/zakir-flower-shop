@@ -10,6 +10,7 @@ body{
 
 /* header section's style start */
 .header{
+    max-width: 1400px;
     background: rgba(229, 84, 115, 0.10);
    
     
@@ -241,7 +242,7 @@ a{
 
 .subscribe-heading{
     position: relative;
-        
+    
 }
 .subscribe-heading h3{
     font-size: 40px;
@@ -286,4 +287,28 @@ a{
     letter-spacing: 1px;
     margin-right: -100px;
 
+}
+.form-button:hover{
+    background-color: #17b185;
+}
+
+/* footer part start here  */
+.footer{
+    background: #111010;
+    max-width: 1400px;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 200px;
+    
+    
+}
+.flower-color{
+    color: #E55473;
+
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    
 }
