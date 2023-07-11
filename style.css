@@ -292,6 +292,49 @@ a{
     background-color: #17b185;
 }
 
+/* Extra section start here */
+.extra-header{
+    max-width: 1400px;
+    background: #1f6e8c;
+}
+
+.extra-section{
+    display: flex;
+    padding: 0 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.extra-content-left{
+    align-items: center;
+    justify-content: center;
+}
+
+.extra-title{
+    color: #272727;
+    width: 500px;
+    margin-top: 150px;
+    font-weight: bold;
+
+}
+
+.extra-title span{
+    color: #E55473;
+}
+
+.extra-content-right{
+    width: 50%;
+    margin-bottom: 55px;
+}
+
+.extra-content-right img{
+    width: 635px
+}
+.buynow{
+    margin-left: 5px;
+}
+
 /* footer part start here  */
 .footer{
     background: #111010;
@@ -299,7 +342,7 @@ a{
     height: 300px;
     color: #fff;
     text-align: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding-top: 200px;
     
     
