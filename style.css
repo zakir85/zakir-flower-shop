@@ -130,3 +130,39 @@ a{
     
 }
 
+/* hot deal-section start */
+.hotdeal-section{
+    display: flex;
+    padding: 0 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.hot-content-left{
+    align-items: center;
+    justify-content: center;
+}
+
+.hotdeal-title{
+    color: #272727;
+    width: 500px;
+    margin-top: 150px;
+    font-weight: bold;
+
+}
+
+.hotdeal-title span{
+    color: #E55473;
+}
+
+.hotdeal-content-right{
+    width: 50%;
+    margin-bottom: 55px;
+}
+
+.hotdeal-content-right img{
+    width: 635px
+}
+.signup{
+    margin-left: 144px;
+}
