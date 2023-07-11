@@ -51,6 +51,9 @@ body{
     border: none;    
 
 }
+.banner-button:hover{
+    background-color: aqua;
+}
 
 /* Featured section start */
 .featured{
@@ -187,7 +190,7 @@ a{
 .flowers-photo{
     display: flex;
     justify-content: space-evenly;
-    margin: 0 50px;
+    margin: 0 100px;
     margin-top: 50px;
 
 }
@@ -195,30 +198,92 @@ a{
 .single-flower-rose{
     background-image: url("images/rectanglepic-1.png");
     background-size: cover;
-    width: 250px;
-    height: 300px;
-    padding: 10px;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
     
 }
 .single-flower-white{
     background-image: url("images/rectanglepic-2.png");
     background-size: cover;
-    width: 250px;
-    height: 300px;
-    padding: 10px;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
 }
 .single-flower-caketus{
     background-image: url("images/rectanglepic-3.png");
     background-size: cover;
-    width: 250px;
-    height: 300px;
-    padding: 10px;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
 }
 .single-flower-redrose{
     background-image: url("images/rectanglepic-4.png");
     background-size: cover;
-    width: 250px;
+    width: 230px;
+    height: 280px;
+    padding: 5px;
+
+}
+/* Subscribe part start here  */
+
+.subscribe-part{
+    max-width:1400px ;
     height: 300px;
-    padding: 10px;
+    background-image:url("images/bg-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 100px;
+    margin-top: 100px;  
+    
+}
+
+.subscribe-heading{
+    position: relative;
+        
+}
+.subscribe-heading h3{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.subscribe-heading p{
+    text-align: center;
+    
+}
+
+.subscribe-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 420px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+
+.subscribe-form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 24px;
+}
+
+.form-button{
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;   
+    outline: none;
+    cursor: pointer;
+    height: 60px;
+    letter-spacing: 1px;
+    margin-right: -100px;
 
 }
