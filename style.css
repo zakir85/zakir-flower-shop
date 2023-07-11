@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* header section's style */
+/* header section's style start */
 .header{
     background: rgba(229, 84, 115, 0.10);
    
@@ -99,7 +99,7 @@ a{
 
 }
 
-/* delivery-part (optional) */
+/* delivery-part (optional) start*/
 
 .delivery-part{
     display: flex;
@@ -137,6 +137,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 100px;
+    margin-top: 100px;
 }
 .hot-content-left{
     align-items: center;
@@ -165,4 +166,59 @@ a{
 }
 .signup{
     margin-left: 144px;
+}
+
+/* Instagram section start */
+
+.social-media{
+    max-width: 1400px;
+    background: #fff;
+}
+
+.social-media-title{
+    width: 594px;
+    color: #272727;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.flowers-photo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    margin-top: 50px;
+
+}
+
+.single-flower-rose{
+    background-image: url("images/rectanglepic-1.png");
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    
+}
+.single-flower-white{
+    background-image: url("images/rectanglepic-2.png");
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.single-flower-caketus{
+    background-image: url("images/rectanglepic-3.png");
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.single-flower-redrose{
+    background-image: url("images/rectanglepic-4.png");
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+
 }
