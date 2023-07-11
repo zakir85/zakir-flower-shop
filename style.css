@@ -339,12 +339,11 @@ a{
 .footer{
     background: #111010;
     max-width: 1400px;
-    height: 300px;
+    height: 200px;
     color: #fff;
     text-align: center;
     /* margin-top: 100px; */
-    padding-top: 200px;
-    
+    padding-top: 100px;
     
 }
 .flower-color{
